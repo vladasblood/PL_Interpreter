@@ -47,7 +47,8 @@ x:=6;
 if(x<5)
   output<<x;
 ```
-
+### The Process
+When `HLInt.py` runs, it opens a source code, then it removes all spaces in the program and sends the contents "without spaces" to an output file named `NOSPACES.TXT` Then, it sends reserved words and symbols found in the program to `RES_SYM.TXT` Finally, it prints on the screen `ERROR` if it finds any syntax error in the program or `NO ERROR(S) FOUND` if there are no errors.
 # How to Run?
 ## Fork the Repository
 Fork the root directory folder, then proceed to "Final Project">>"dist">>"HLInt">>"HLInt.exe". 
